@@ -44,7 +44,7 @@ class Mostafa {
     <main className="text-white">
 
       {/* NAVBAR */}
-      <nav className="fixed top-5 left-1/2 -translate-x-1/2 z-50">
+      <nav className="fixed top-3 md:top-5 left-1/2 -translate-x-1/2 z-50">
         <div className="glass px-4 md:px-6 py-3 flex gap-3 md:gap-6 text-xs md:text-sm">
           <a href="#about">About</a>
           <a href="#services">Services</a>
@@ -54,7 +54,7 @@ class Mostafa {
       </nav>
 
       {/* HERO */}
-      <section className="min-h-screen pt-32 md:pt-0 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <section className="min-h-screen pt-40 md:pt-24 lg:pt-0 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 
         <motion.p
           initial={{ opacity: 0, y: 25 }}
@@ -67,7 +67,7 @@ class Mostafa {
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="text-5xl sm:text-6xl md:text-8xl font-bold mb-6"
+          className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-none"
         >
           Mostafa{" "}
           <span className="gradient-text">
